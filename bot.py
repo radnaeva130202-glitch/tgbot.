@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 # Твой токен от BotFather
-TOKEN = "8231769343:AAEEG3pnc2ui9HgfP7cpdvDLTmvoLMcAfCk"
+TOKEN = "8231769343:AAFRn6Ht4IHydDrnM97bx8mXBuO-6GRw4_A"
 bot = telebot.TeleBot(TOKEN)
 
 # Обработка команды /start
@@ -43,3 +43,4 @@ def registration(message):
 
 # Запуск бота
 bot.polling(none_stop=True)
+
